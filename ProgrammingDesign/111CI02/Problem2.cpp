@@ -6,7 +6,6 @@ using namespace std;
 int f1(){
     int a = 2, b =1;
     unsigned int c =1,d=6;
-    // cout << (a && !b) << endl<<(c < 2) <<endl<< (c | d)<<endl;
      return (a && !b) + (c < 2) + (c | d);
 }
 float f2(int num){
